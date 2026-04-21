@@ -403,7 +403,6 @@
 
                     try {
                         formData.append('_subject', 'New Lead — Orlando Concrete Driveway');
-                        formData.append('_captcha', 'false');
                         const response = await fetch('https://lead-manager-api.irontigerdigital.workers.dev/ingest', {
                             method: 'POST',
                             body: formData,
@@ -411,7 +410,7 @@
                         });
                         const data = await response.json();
 
-                        if (data.success === 'true' || data.success === true) {
+                        if (data.success === true) {
                             document.getElementById('formSuccess').style.display = 'block';
                             form.reset();
                             document.getElementById('formSuccess').scrollIntoView({ behavior: 'smooth', block: 'center' });
