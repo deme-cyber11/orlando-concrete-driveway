@@ -80,6 +80,17 @@ textarea{resize:vertical;min-height:88px;line-height:1.6}
   <a href="tel:4073262707" class="nav__cta">(407) 326-2707</a>
 </nav>
 
+<!-- MOBILE NAV -->
+<div class="mobile-nav">
+  <a href="/">Home</a>
+  <a href="/services/driveway-installation/">Services</a>
+  <a href="/locations/downtown-orlando/">Areas</a>
+  <a href="/about/">About</a>
+  <a href="/blog/">Blog</a>
+  <a href="/contact/">Contact</a>
+  <a href="tel:+14073262707"><i class="ph ph-phone"></i> (407) 326-2707</a>
+</div>
+
 <main class="page">
 
   <div class="page-header">
@@ -323,5 +334,6 @@ textarea{resize:vertical;min-height:88px;line-height:1.6}
 if(window.location.hash==='#success'){document.getElementById('form').style.display='none';document.getElementById('success').style.display='block';}
 document.getElementById('photos').addEventListener('change',function(){document.getElementById('upload-label').textContent=this.files.length?this.files.length+' photo'+(this.files.length>1?'s':'')+' selected':'Tap to upload photos';});
 </script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
