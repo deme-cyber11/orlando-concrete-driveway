@@ -63,123 +63,182 @@
     <link rel="stylesheet" href="/css/site-theme.css">
 
     <!-- LocalBusiness Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
+  "url": "https://orlandoconcretedriveway.com",
+  "telephone": "(407) 326-2707",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orlando",
+    "addressRegion": "FL",
+    "postalCode": "32801",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.5383,
+    "longitude": -81.3792
+  },
+  "areaServed": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
-        "url": "https://orlandoconcretedriveway.com",
-        "telephone": "(407) 326-2707",
-        "priceRange": "$$",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Orlando",
-            "addressRegion": "FL",
-            "postalCode": "32801",
-            "addressCountry": "US"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 28.5383,
-            "longitude": -81.3792
-        },
-        "areaServed": [
-            {"@type": "City", "name": "Orlando"},
-            {"@type": "City", "name": "Winter Park"},
-            {"@type": "City", "name": "Maitland"},
-            {"@type": "City", "name": "Lake Mary"},
-            {"@type": "City", "name": "Altamonte Springs"},
-            {"@type": "City", "name": "Oviedo"}
-        ]
+      "@type": "City",
+      "name": "Orlando"
+    },
+    {
+      "@type": "City",
+      "name": "Winter Park"
+    },
+    {
+      "@type": "City",
+      "name": "Maitland"
+    },
+    {
+      "@type": "City",
+      "name": "Lake Mary"
+    },
+    {
+      "@type": "City",
+      "name": "Altamonte Springs"
+    },
+    {
+      "@type": "City",
+      "name": "Oviedo"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- Service Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Commercial Concrete Services",
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": "Orlando Concrete Driveway Experts",
-            "telephone": "(407) 326-2707"
-        },
-        "areaServed": {
-            "@type": "City",
-            "name": "Orlando",
-            "addressRegion": "FL"
-        },
-        "description": "Commercial concrete services including parking lots, loading docks, warehouse floors, sidewalks, and ADA-compliant ramps. Licensed and insured for commercial projects.",
-        "offers": {
-            "@type": "Offer",
-            "priceRange": "Contact for quote"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Commercial Concrete Services",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Orlando Concrete Driveway Experts",
+    "telephone": "(407) 326-2707"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Orlando",
+    "addressRegion": "FL"
+  },
+  "description": "Commercial concrete services including parking lots, loading docks, warehouse floors, sidewalks, and ADA-compliant ramps. Licensed and insured for commercial projects.",
+  "offers": {
+    "@type": "Offer",
+    "priceRange": "Contact for quote"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- FAQ Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Do you handle large commercial concrete projects?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we handle commercial projects of all sizes including parking lots, warehouse floors, loading docks, and retail spaces. We're licensed and insured for commercial work in Central Florida."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can you work around business hours?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We offer flexible scheduling including nights and weekends to minimize disruption to your business operations. We can phase projects to keep portions of your facility accessible."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What commercial concrete services do you offer?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We provide parking lot installation and repair, loading docks, warehouse and industrial floors, sidewalks, ADA ramps, curbing, and decorative concrete for retail and hospitality properties."
-                }
-            }
-        ]
+      "@type": "Question",
+      "name": "Do you handle large commercial concrete projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we handle commercial projects of all sizes including parking lots, warehouse floors, loading docks, and retail spaces. We're licensed and insured for commercial work in Central Florida."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you work around business hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer flexible scheduling including nights and weekends to minimize disruption to your business operations. We can phase projects to keep portions of your facility accessible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What commercial concrete services do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide parking lot installation and repair, loading docks, warehouse and industrial floors, sidewalks, ADA ramps, curbing, and decorative concrete for retail and hospitality properties."
+      }
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "main h2",
+      "main p:first-of-type"
+    ]
+  }
+}</script>
 
     <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orlandoconcretedriveway.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://orlandoconcretedriveway.com/services/"},
-            {"@type": "ListItem", "position": 3, "name": "Commercial Concrete"}
-        ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://orlandoconcretedriveway.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://orlandoconcretedriveway.com/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Commercial Concrete"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25"
+}</script>
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "47",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "47",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 </head>
 <body>
 

@@ -63,123 +63,182 @@
     <link rel="stylesheet" href="/css/site-theme.css">
 
     <!-- LocalBusiness Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
+  "url": "https://orlandoconcretedriveway.com",
+  "telephone": "(407) 326-2707",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orlando",
+    "addressRegion": "FL",
+    "postalCode": "32801",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.5383,
+    "longitude": -81.3792
+  },
+  "areaServed": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
-        "url": "https://orlandoconcretedriveway.com",
-        "telephone": "(407) 326-2707",
-        "priceRange": "$$",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Orlando",
-            "addressRegion": "FL",
-            "postalCode": "32801",
-            "addressCountry": "US"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 28.5383,
-            "longitude": -81.3792
-        },
-        "areaServed": [
-            {"@type": "City", "name": "Orlando"},
-            {"@type": "City", "name": "Winter Park"},
-            {"@type": "City", "name": "Maitland"},
-            {"@type": "City", "name": "Lake Mary"},
-            {"@type": "City", "name": "Altamonte Springs"},
-            {"@type": "City", "name": "Oviedo"}
-        ]
+      "@type": "City",
+      "name": "Orlando"
+    },
+    {
+      "@type": "City",
+      "name": "Winter Park"
+    },
+    {
+      "@type": "City",
+      "name": "Maitland"
+    },
+    {
+      "@type": "City",
+      "name": "Lake Mary"
+    },
+    {
+      "@type": "City",
+      "name": "Altamonte Springs"
+    },
+    {
+      "@type": "City",
+      "name": "Oviedo"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- Service Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Pool Deck Installation and Resurfacing",
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": "Orlando Concrete Driveway Experts",
-            "telephone": "(407) 326-2707"
-        },
-        "areaServed": {
-            "@type": "City",
-            "name": "Orlando",
-            "addressRegion": "FL"
-        },
-        "description": "Pool deck installation and resurfacing with cool deck coatings, stamped overlays, and textured finishes. Heat-reflective and slip-resistant options for Florida pools.",
-        "offers": {
-            "@type": "Offer",
-            "priceRange": "$8-$18 per sq ft"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Pool Deck Installation and Resurfacing",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Orlando Concrete Driveway Experts",
+    "telephone": "(407) 326-2707"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Orlando",
+    "addressRegion": "FL"
+  },
+  "description": "Pool deck installation and resurfacing with cool deck coatings, stamped overlays, and textured finishes. Heat-reflective and slip-resistant options for Florida pools.",
+  "offers": {
+    "@type": "Offer",
+    "priceRange": "$8-$18 per sq ft"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- FAQ Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "How much does pool deck resurfacing cost in Orlando?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Pool deck resurfacing costs $3-$7 per sq ft for basic overlays, $8-$12 for stamped overlays, and $10-$18 for premium cool deck coatings. A 500 sq ft pool deck ranges from $1,500 to $9,000."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the best pool deck surface for Florida heat?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Cool deck coatings and light-colored textured finishes stay coolest in Florida sun. These surfaces can be 30-40% cooler than standard concrete, making them comfortable for bare feet."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How do you make a pool deck slip-resistant?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We add textured finishes, non-slip aggregates, or special coatings to pool decks for safety. Broom finishes and exposed aggregate also provide natural slip resistance around pools."
-                }
-            }
-        ]
+      "@type": "Question",
+      "name": "How much does pool deck resurfacing cost in Orlando?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pool deck resurfacing costs $3-$7 per sq ft for basic overlays, $8-$12 for stamped overlays, and $10-$18 for premium cool deck coatings. A 500 sq ft pool deck ranges from $1,500 to $9,000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best pool deck surface for Florida heat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cool deck coatings and light-colored textured finishes stay coolest in Florida sun. These surfaces can be 30-40% cooler than standard concrete, making them comfortable for bare feet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you make a pool deck slip-resistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We add textured finishes, non-slip aggregates, or special coatings to pool decks for safety. Broom finishes and exposed aggregate also provide natural slip resistance around pools."
+      }
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "main h2",
+      "main p:first-of-type"
+    ]
+  }
+}</script>
 
     <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orlandoconcretedriveway.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://orlandoconcretedriveway.com/services/"},
-            {"@type": "ListItem", "position": 3, "name": "Pool Decks"}
-        ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://orlandoconcretedriveway.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://orlandoconcretedriveway.com/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Pool Decks"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25"
+}</script>
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "68",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "68",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 </head>
 <body>
 

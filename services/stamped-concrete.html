@@ -63,123 +63,182 @@
     <link rel="stylesheet" href="/css/site-theme.css">
 
     <!-- LocalBusiness Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
+  "url": "https://orlandoconcretedriveway.com",
+  "telephone": "(407) 326-2707",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orlando",
+    "addressRegion": "FL",
+    "postalCode": "32801",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.5383,
+    "longitude": -81.3792
+  },
+  "areaServed": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
-        "url": "https://orlandoconcretedriveway.com",
-        "telephone": "(407) 326-2707",
-        "priceRange": "$$",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Orlando",
-            "addressRegion": "FL",
-            "postalCode": "32801",
-            "addressCountry": "US"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 28.5383,
-            "longitude": -81.3792
-        },
-        "areaServed": [
-            {"@type": "City", "name": "Orlando"},
-            {"@type": "City", "name": "Winter Park"},
-            {"@type": "City", "name": "Maitland"},
-            {"@type": "City", "name": "Lake Mary"},
-            {"@type": "City", "name": "Altamonte Springs"},
-            {"@type": "City", "name": "Oviedo"}
-        ]
+      "@type": "City",
+      "name": "Orlando"
+    },
+    {
+      "@type": "City",
+      "name": "Winter Park"
+    },
+    {
+      "@type": "City",
+      "name": "Maitland"
+    },
+    {
+      "@type": "City",
+      "name": "Lake Mary"
+    },
+    {
+      "@type": "City",
+      "name": "Altamonte Springs"
+    },
+    {
+      "@type": "City",
+      "name": "Oviedo"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- Service Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Stamped Concrete Installation",
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": "Orlando Concrete Driveway Experts",
-            "telephone": "(407) 326-2707"
-        },
-        "areaServed": {
-            "@type": "City",
-            "name": "Orlando",
-            "addressRegion": "FL"
-        },
-        "description": "Professional stamped concrete installation for driveways, patios, and walkways. Decorative patterns include ashlar slate, cobblestone, brick, and flagstone with custom color options.",
-        "offers": {
-            "@type": "Offer",
-            "priceRange": "$12-$18 per sq ft"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Stamped Concrete Installation",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Orlando Concrete Driveway Experts",
+    "telephone": "(407) 326-2707"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Orlando",
+    "addressRegion": "FL"
+  },
+  "description": "Professional stamped concrete installation for driveways, patios, and walkways. Decorative patterns include ashlar slate, cobblestone, brick, and flagstone with custom color options.",
+  "offers": {
+    "@type": "Offer",
+    "priceRange": "$12-$18 per sq ft"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- FAQ Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "How much does stamped concrete cost in Orlando?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Stamped concrete in Orlando typically costs $12-$18 per square foot, depending on the pattern complexity and color options. A standard 600 sq ft driveway ranges from $7,200 to $10,800."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long does stamped concrete last in Florida?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Properly installed and maintained stamped concrete lasts 25-30 years in Florida. Resealing every 2-3 years protects against UV damage and maintains the color vibrancy."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is stamped concrete slippery when wet?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Stamped concrete can be slippery when wet, but we add anti-slip additives to the sealer for safer surfaces. This is especially important for pool decks and walkways."
-                }
-            }
-        ]
+      "@type": "Question",
+      "name": "How much does stamped concrete cost in Orlando?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stamped concrete in Orlando typically costs $12-$18 per square foot, depending on the pattern complexity and color options. A standard 600 sq ft driveway ranges from $7,200 to $10,800."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does stamped concrete last in Florida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Properly installed and maintained stamped concrete lasts 25-30 years in Florida. Resealing every 2-3 years protects against UV damage and maintains the color vibrancy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is stamped concrete slippery when wet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stamped concrete can be slippery when wet, but we add anti-slip additives to the sealer for safer surfaces. This is especially important for pool decks and walkways."
+      }
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "main h2",
+      "main p:first-of-type"
+    ]
+  }
+}</script>
 
     <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orlandoconcretedriveway.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://orlandoconcretedriveway.com/services/"},
-            {"@type": "ListItem", "position": 3, "name": "Stamped Concrete"}
-        ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://orlandoconcretedriveway.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://orlandoconcretedriveway.com/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Stamped Concrete"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25"
+}</script>
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "112",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "112",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 </head>
 <body>
 

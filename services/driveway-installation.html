@@ -63,123 +63,182 @@
     <link rel="stylesheet" href="/css/site-theme.css">
 
     <!-- LocalBusiness Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
+  "url": "https://orlandoconcretedriveway.com",
+  "telephone": "(407) 326-2707",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orlando",
+    "addressRegion": "FL",
+    "postalCode": "32801",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.5383,
+    "longitude": -81.3792
+  },
+  "areaServed": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "image": "https://orlandoconcretedriveway.com/images/og-image.jpg",
-        "url": "https://orlandoconcretedriveway.com",
-        "telephone": "(407) 326-2707",
-        "priceRange": "$$",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Orlando",
-            "addressRegion": "FL",
-            "postalCode": "32801",
-            "addressCountry": "US"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 28.5383,
-            "longitude": -81.3792
-        },
-        "areaServed": [
-            {"@type": "City", "name": "Orlando"},
-            {"@type": "City", "name": "Winter Park"},
-            {"@type": "City", "name": "Maitland"},
-            {"@type": "City", "name": "Lake Mary"},
-            {"@type": "City", "name": "Altamonte Springs"},
-            {"@type": "City", "name": "Oviedo"}
-        ]
+      "@type": "City",
+      "name": "Orlando"
+    },
+    {
+      "@type": "City",
+      "name": "Winter Park"
+    },
+    {
+      "@type": "City",
+      "name": "Maitland"
+    },
+    {
+      "@type": "City",
+      "name": "Lake Mary"
+    },
+    {
+      "@type": "City",
+      "name": "Altamonte Springs"
+    },
+    {
+      "@type": "City",
+      "name": "Oviedo"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- Service Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Concrete Driveway Installation",
-        "provider": {
-            "@type": "LocalBusiness",
-            "name": "Orlando Concrete Driveway Experts",
-            "telephone": "(407) 326-2707"
-        },
-        "areaServed": {
-            "@type": "City",
-            "name": "Orlando",
-            "addressRegion": "FL"
-        },
-        "description": "Professional concrete driveway installation including site preparation, grading, forming, reinforcement, pouring, and finishing. Standard and decorative options available.",
-        "offers": {
-            "@type": "Offer",
-            "priceRange": "$6-$10 per sq ft"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Concrete Driveway Installation",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Orlando Concrete Driveway Experts",
+    "telephone": "(407) 326-2707"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Orlando",
+    "addressRegion": "FL"
+  },
+  "description": "Professional concrete driveway installation including site preparation, grading, forming, reinforcement, pouring, and finishing. Standard and decorative options available.",
+  "offers": {
+    "@type": "Offer",
+    "priceRange": "$6-$10 per sq ft"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 
     <!-- FAQ Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "How much does a new concrete driveway cost in Orlando?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A new concrete driveway in Orlando costs $6-$10 per square foot for standard installation. A typical 600 sq ft driveway ranges from $3,600 to $6,000. Decorative options add $2-$8 per sq ft."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How thick should a concrete driveway be in Florida?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Standard residential driveways should be 4 inches thick. For heavier vehicles or RV parking, we recommend 5-6 inches with additional reinforcement."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long before I can drive on new concrete?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "You can walk on new concrete after 24-48 hours. Light vehicle traffic is safe after 7 days. Full cure strength is reached at 28 days, though normal use is fine after one week."
-                }
-            }
-        ]
+      "@type": "Question",
+      "name": "How much does a new concrete driveway cost in Orlando?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A new concrete driveway in Orlando costs $6-$10 per square foot for standard installation. A typical 600 sq ft driveway ranges from $3,600 to $6,000. Decorative options add $2-$8 per sq ft."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How thick should a concrete driveway be in Florida?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard residential driveways should be 4 inches thick. For heavier vehicles or RV parking, we recommend 5-6 inches with additional reinforcement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long before I can drive on new concrete?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can walk on new concrete after 24-48 hours. Light vehicle traffic is safe after 7 days. Full cure strength is reached at 28 days, though normal use is fine after one week."
+      }
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "main h2",
+      "main p:first-of-type"
+    ]
+  }
+}</script>
 
     <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orlandoconcretedriveway.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://orlandoconcretedriveway.com/services/"},
-            {"@type": "ListItem", "position": 3, "name": "Driveway Installation"}
-        ]
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://orlandoconcretedriveway.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://orlandoconcretedriveway.com/services/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Driveway Installation"
     }
-    </script>
+  ],
+  "dateModified": "2026-04-25"
+}</script>
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Orlando Concrete Driveway Experts",
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "203",
-            "bestRating": "5",
-            "worstRating": "1"
-        }
-    }
-    </script>
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Orlando Concrete Driveway Experts",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "203",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "h1 + p",
+      "main h2 + p"
+    ]
+  }
+}</script>
 </head>
 <body>
 
